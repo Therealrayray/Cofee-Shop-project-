@@ -1,0 +1,28 @@
+.introduction {
+    display: flex;
+    width: 90%;
+    margin: 0% auto;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introduction h1 {
+    font-size: 64px;
+    width: 800px;
+    line-height: 75px;
+}
+
+.introduction p {
+    font-size: 22px;
+    word-spacing: 4px;
+    line-height: 32px;
+    width: 750px;
+    color: var(--dark-color);
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.introduction img {
+    min-width: 600px;
+}
