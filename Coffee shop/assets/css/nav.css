@@ -60,17 +60,17 @@ nav li a:hover::after {
 
 @media (max-width: 600px) {
     .drawer {
-        display: none;
+        display: flex;
         flex-direction: column;
-        width: 300px;
-        height: 100vh;
+        width: 0px;
+        height: 100%;
         background-color: var(--primary-color);
         justify-content: flex-start;
         align-items: center;
-        position: absolute;
+        position: fixed;
         top: 0px;
         right: 0px;
-        /* display: none; */
+        transition: all 1s ease;
         margin: 0px auto;
     }
 
@@ -118,5 +118,13 @@ nav li a:hover::after {
         padding: 8px 12px;
         width: 80%;
         text-align: center;
+    }
+
+    .close-drawer {
+        width: 0px;
+    }
+
+    .order{
+        opacity: 0;
     }
 }
