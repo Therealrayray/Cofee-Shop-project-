@@ -32,3 +32,28 @@ body{
     padding: 0px;
     box-sizing: border-box;
  }
+
+ .btn {
+   text-decoration: none;
+   padding: 8px 20px;
+   background-color: var(--grey-color);
+   color: var(--white-color);
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 10px;
+   border-radius: 3px;
+   border: none;
+ }
+
+ .btn-primary{
+   background-color: var(--primary-color);
+ }
+
+ .w-120 {
+   width: 120px;
+ }
+
+ .icon {
+   color: var(--white-color);
+ }
