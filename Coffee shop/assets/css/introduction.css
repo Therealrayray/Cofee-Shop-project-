@@ -9,7 +9,7 @@
 
 .introduction h1 {
     font-size: 64px;
-    width: 800px;
+    width: 85%;
     line-height: 75px;
 }
 
@@ -17,12 +17,12 @@
     font-size: 22px;
     word-spacing: 4px;
     line-height: 32px;
-    width: 750px;
+    width: 75%px;
     color: var(--dark-color);
     font-style: italic;
     margin-top: 20px;
 }
 
 .introduction img {
-    min-width: 600px;
+    min-width: 500px;
 }
