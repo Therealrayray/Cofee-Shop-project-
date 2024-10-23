@@ -45,13 +45,13 @@
 
     .introduction h1 {
         font-size: 32px;
-        line-height: 25px;
+        line-height: 32px;
         width: 100%;
     }
 
     .introduction p{
         font-size: 17px;
-        line-height: 17px;
+        line-height: 20px;
         width: 100%;
     }
 }
