@@ -3,6 +3,8 @@
     padding: 200px 0px;
 }
 .gallery img {
-    justify-content: center;
-
+    justify-content: center; 
+    align-items: center;
+    padding: 20px 40px;
+    
 }
