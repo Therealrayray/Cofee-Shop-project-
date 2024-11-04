@@ -58,3 +58,74 @@ body{
  .icon {
    color: var(--white-color);
  }
+
+ .container{
+  padding: 20px 40px;
+ }
+
+ .container-fluid{
+  padding: 20px 10px;
+ }
+
+main>section
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coffee>h1{
+  text-decoration: underline;
+  line-height: 75px;
+}
+
+.card{
+  box-shadow: 2px 2px 4px 4px #ddd;
+  width: 18rem;
+  border-radius: 4px;
+  position: relative;
+}
+
+.card-body, .card-title{
+  padding: 10px 20px;
+}
+
+.card-default{
+  background-color: var(--white-color);
+}
+
+.card-image img{
+  width: 100%;
+  object-fit: contain;
+  height: 22rem;
+}
+
+.card-overlay {
+  background-color: var(--primary-color);
+  height: 50%;
+  /* transform: translateY(-100%); */
+  position: absolute;
+  top: 50%;
+  opacity: 0;
+  border-radius: 0px 0px 4px 4px;
+  padding: 20px 40px;
+}
+
+.card-image:hover.card-overlay{
+  opacity: 0.9;
+}
+
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bg-primary{
+  background-color: var(--primary-color);
+}
+.bg-info{
+  background-color: var(--light-info-color);
+}

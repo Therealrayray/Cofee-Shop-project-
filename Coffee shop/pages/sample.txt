@@ -1,0 +1,17 @@
+        <div class ="main">
+            <h1 class="outfit-bold">Our Coffee</h1> 
+        </div>
+        <section class="gallery">
+            <img src="../assets/images/image-removebg-preview (10).png" alt="Pumpkin Spice Crème">
+            <img src="../assets/images/image-removebg-preview (11).png" alt="Hot Chocolate">
+            <img src="../assets/images/image-removebg-previe.png" alt="Wray's Cold Brew Coffee">
+            <img src="../assets/images/dasdad.png" alt="Vanilla Sweet Cream Cold Brew">
+            <img src="../assets/images/image-rpreview (10).png" alt="Iced Americano">
+            <img src="../assets/images/chocloate.png" alt="Chocolate Cream Cold Brew">
+            <img src="../assets/images/iced caramel.png" alt="Iced Caramel Apple Cream Latte">
+            <img src="../assets/images/wexpresso.png" alt="Iced Espresso">
+            <img src="../assets/images/capprichino.png" alt="CAPPUCCINO">
+            <img src="../assets/images/green drink.png" alt="PISTACHIO LATTE">
+            <img src="../assets/images/expresssoooo.png" alt="ESPRESSO CREAM LATTE">
+            <img src="../assets/images/chai.png" alt="CHAI LATTE">
+        </section>
