@@ -76,6 +76,7 @@ nav li a:hover::after {
         right: 0px;
         transition: all 1s ease;
         margin: 0px auto;
+        z-index: 999999;
     }
 
     .drawer ul {

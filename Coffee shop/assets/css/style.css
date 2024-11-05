@@ -102,7 +102,7 @@ main>section
 }
 
 .card-overlay {
-  background-color: var(--primary-color);
+  background-color: var(--light-info-color);
   height: 50%;
   /* transform: translateY(-100%); */
   position: absolute;
@@ -110,9 +110,10 @@ main>section
   opacity: 0;
   border-radius: 0px 0px 4px 4px;
   padding: 20px 40px;
+  transition: opacity 1s;
 }
 
-.card-image:hover.card-overlay{
+.card:hover .card-overlay{
   opacity: 0.9;
 }
 
@@ -128,4 +129,24 @@ main>section
 }
 .bg-info{
   background-color: var(--light-info-color);
+}
+
+.price-tag{
+  position: absolute;
+  top: 10%;
+  right: 0%;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 3px 0px 0px 3px;
+}
+
+.old-price-tag{
+  position: absolute;
+  top: 22%;
+  right: 0%;
+  padding: 10px 20px;
+  background-color: var(--danger-color);
+  color: var(--white-color);
+  border-radius: 3px 0px 0px 3px;
 }
