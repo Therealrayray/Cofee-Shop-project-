@@ -130,6 +130,8 @@ h1{
 
 .d-flex{
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 20px;
