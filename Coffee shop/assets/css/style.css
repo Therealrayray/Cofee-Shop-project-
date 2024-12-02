@@ -328,5 +328,27 @@ address ul>li>a{
      
  }
 /* END of conatact us style */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333 ;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  align-items: center;
+
+}
+
+.logo>a>img{
+  width: 100px;
+}
+
+footer li a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: 17px
+  
+}
 
 
