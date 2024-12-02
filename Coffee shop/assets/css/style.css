@@ -348,9 +348,10 @@ footer li a {
 
 footer ul{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 12px 24px;
 }
 
 footer li {
@@ -382,6 +383,9 @@ footer .bottom-footer ul li p{
 color: #fff;
 }
 
-footer .bottom-footer ul li{
-
+footer .bottom-footer ul{
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
   }
