@@ -330,25 +330,50 @@ address ul>li>a{
 /* END of conatact us style */
 footer {
   display: flex;
-  justify-content: space-between;
-  background-color: #333 ;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  width: 100%;
+  flex-direction: column;
   align-items: center;
-
+  justify-content: center;
+  background-color:  var(--dark-color);
 }
 
-.logo>a>img{
+footer .logo img{
   width: 100px;
 }
 
 footer li a {
-  color: var(--dark-color);
+  color: var(--white-color);
   text-decoration: none;
   font-size: 17px
-  
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li img {
+  width: 80px;
+}
+
+footer .top-footer{
+  margin-top: 10px;
+}
+
+footer .social-links ul li{
+  padding: 0px 64px;
+}
+
+footer .social-links ul li ion-icon{
+  font-size: 56px;
 }
 
 
+footer .social-links{
+  padding: 64px 0px;
+}
